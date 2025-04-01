@@ -39,6 +39,8 @@ cachorrim1 = Cachorro(nome="Spike", raca="Pitbull", peso=13.5, pedigree=True, co
 
 outro_cachorro = Cachorro(nome="Fifi", raca="Vira-Lata", peso=4.8, pedigree=False, cor="Caramelo", idade=6)
 
+outro_cachorro2 = Cachorro(nome="john john", raca="Vira-Lata", peso=3.4, pedigree=False, cor="Caramelo", idade=10)
+
 
 print(cachorrim1.acordar())
 print(cachorrim1.brincar(brincadeira="Pegar Bolinha"))
@@ -52,3 +54,9 @@ print(outro_cachorro.acordar())
 print(outro_cachorro.brincar(brincadeira="Correr atrás do rabo"))
 print(outro_cachorro.comer(comida="Carne"))
 print(outro_cachorro.dormir())
+
+
+print(outro_cachorro2.acordar())
+print(outro_cachorro2.brincar(brincadeira="descer e subir a escada"))
+print(outro_cachorro2.comer(comida="o r.o muito gostoso"))
+print(outro_cachorro2.dormir())
